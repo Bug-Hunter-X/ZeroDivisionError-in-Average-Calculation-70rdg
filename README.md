@@ -1,0 +1,3 @@
+# Python ZeroDivisionError Example
+
+This repository demonstrates a common error in Python: a `ZeroDivisionError`.  The `calculate_average` function calculates the average of a list of numbers.  It correctly handles an empty list, returning 0. However, it does not explicitly handle cases where the input list might contain non-numeric data or cases that cause other errors. This example is designed to illustrate the importance of robust error handling.
